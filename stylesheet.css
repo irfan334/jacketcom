@@ -16,15 +16,14 @@ body {
 }
 
 #banner_slot {
-	
+	background: #b3b3b3;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
 	height: 50px;
 }
 
 #banner_container {
 	padding: 1%;
-	background-color: #B3B3B3;
-	border-top-left-radius: 25px;
-	border-top-right-radius: 25px;
 }
 
 #banner {
