@@ -23,6 +23,8 @@ body {
 #banner_container {
 	padding: 1%;
 	background-color: #b3b3b3;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
 }
 
 #banner {
