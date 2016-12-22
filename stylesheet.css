@@ -11,15 +11,22 @@ body {
 	padding:0px;
 	margin-right:auto;
 	margin-left:auto;
-	background-image: url(images/main.png);
+	background: #cccccc; /* For browsers that do not support gradients */
+    	background: -webkit-linear-gradient(left, #262626, #4d4d4d, #262626); /* For Safari 5.1 to 6.0 */
+    	background: -o-linear-gradient(right, #262626, #4d4d4d, #262626); /* For Opera 11.1 to 12.0 */
+    	background: -moz-linear-gradient(right, #262626, #4d4d4d, #262626); /* For Firefox 3.6 to 15 */
+    	background: linear-gradient(to right, #262626, #4d4d4d, #262626); /* Standard syntax */
 	border-radius: 25px;
 }
 
 #banner_container {
 	padding: 1%;
-	background: #b3b3b3;
+	margin: 0%;
+	background: #262626;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
+	border: solid 2px #cccccc;
+	border-bottom: solid 2px #999999;
 }
 
 #banner {
@@ -33,7 +40,9 @@ body {
 	margin: 0;
 	position: relative;
 	word-wrap: break-word;
-	background-color: #CCCCCC;
+	background-color: #262626;
+	border: solid 2px #cccccc;
+	border-top: solid 2px #999999;
 	font-size:24px;
 	border-bottom-right-radius: 25px;
 	border-bottom-left-radius: 25px;
@@ -42,20 +51,20 @@ body {
 #nav li {
 	display: inline-block;
 	min-width: 30%;
-	background: #CCCCCC;
+	background: #262626;
 }
 
 #nav li:hover {
-	background: #b3b3b3;
+	background: #404040;
 }
 
 #nav li a {
-	color: #333333;
+	color: #cccccc;
 	text-decoration: none;
 }
 
 #nav li a,visited {
-	color: #1a1a1a;
+	color: #a6a6a6;
 }
 
 #nav li ul {
