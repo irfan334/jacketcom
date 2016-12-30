@@ -8,16 +8,16 @@ body {
 
 p {
 	margin:10px;
-	color:#b3b3b3;
+	color:#2B1809;
 }
 
 a {
-	color:#CCCCCC;
+	color:#93521f;
 	text-decoration:none;
 }
 
 a, visited {
-	color:#999999;
+	color:#7e461b;
 }
 
 #main {
@@ -29,19 +29,20 @@ a, visited {
     background: -webkit-linear-gradient(#666666, #262626); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#666666, #262626); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#666666, #262626); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#666666, #262626); /* Standard syntax */
+    background: linear-gradient(#c1a171, #70593A); /* Standard syntax */
 	border-radius: 25px;
-	color: #cccccc;
-	box-shadow: 0 4px 8px 0 #333333, 0 6px 20px 0 #333333;
+	color: #2B1809;
+	box-shadow: 0 2px 8px 0 #342918, 0 6px 20px 0 #342918;
 }
 
 #banner_container {
 	padding: 1%;
-	margin: 0%;
-	background: #262626;
+	margin: 5px;
+	background: #2B1809;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
-	box-shadow: 0 -4px 8px 0 #333333, 0 -6px 20px 0 #333333;
+	box-shadow: 0 2px 8px 0 #2b1808;
+	border: solid 3px #8B6536;
 }
 
 #banner {
@@ -52,46 +53,50 @@ a, visited {
 #nav {
 	list-style-type: none;
 	padding: 0;
-	margin: 0;
+	margin: 5px;
+	margin-top: 0px;
 	position: relative;
 	word-wrap: break-word;
-	background-color: #262626;
+	background: #2B1809;
 	font-size:24px;
 	border-bottom-right-radius: 25px;
 	border-bottom-left-radius: 25px;
-	box-shadow: 0 4px 8px 0 #333333, 0 6px 20px 0 #333333;
+	box-shadow: 0 4px 8px 0 #2b1808;
+	border: solid 3px #8B6536;
 }
 
 #nav li {
 	display: inline-block;
 	min-width: 30%;
-	background: #262626;
+	background: #2B1809;
 }
 
 #nav li:hover {
-	background: #666666;
+	background: #542f12;
 	-webkit-transition: background 0.5s linear;
     transition: background 0.5s ease;
 }
 
 #nav li a {
-	color: #cccccc;
+	color: #d0b895;
 	text-decoration: none;
 }
 
 #nav li a,visited {
-	color: #a6a6a6;
+	color: #c9ad83;
 }
 
 #nav li ul {
 	display: none;
 	position: absolute;
-	border: 3px solid #a4a4a4;
+	border: 3px solid #8B6536;
 	border-left: 0;
 	border-right: 0;
+	border-top: 0;
 	min-width: inherit;
 	padding: 0px;
 	margin: 0px;
+	box-shadow: 0 4px 8px 0 #2b1808;
 }
 
 #nav li:hover ul {
@@ -114,7 +119,8 @@ footer {
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {
 	body {font-size:16px;}
-	#nav {font-size:24px;}
+	#nav {font-size:24px;margin: 5px;}
+	#banner_container {margin: 5px;}
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
@@ -124,12 +130,14 @@ footer {
 
 @media all and (min-width: 480px) and (max-width: 768px) {
 	body {font-size:14px;}
-	#nav {font-size:20px;}
+	#nav {font-size:20px;margin: 3px;}
+	#banner_container {margin: 3px;}
 }
 
 @media all and (max-width: 480px) {
 	body {font-size:13px;}
-	#nav {font-size:18px;}
+	#nav {font-size:18px;margin: 1px;}
+	#banner_container {margin: 1px;}
 }
 
 @keyframes ftbg {
