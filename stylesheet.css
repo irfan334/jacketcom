@@ -30,9 +30,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin-right:auto;
 	margin-left:auto;
 	background: #cccccc; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#666666, #262626); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#666666, #262626); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#666666, #262626); /* For Firefox 3.6 to 15 */
+    background: -webkit-linear-gradient(#c1a171, #70593A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#c1a171, #70593A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#c1a171, #70593A); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#c1a171, #70593A); /* Standard syntax */
 	border-radius: 25px;
 	color: #2B1809;
