@@ -20,6 +20,10 @@ a, visited {
 	color:#7e461b;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family:courier;
+}
+
 #main {
 	width:80%;
 	padding:0px;
@@ -109,6 +113,22 @@ a, visited {
 	margin: 0px;
 }
 
+#batchphoto {
+	width:80%;
+	height:auto;
+	border-radius:25px;
+	box-shadow: 0 4px 8px 0 #2b1808;
+	border: solid 3px #8B6536;
+}
+
+#disperse {
+	width:40%;
+	height:auto;
+	border-radius:25px;
+	box-shadow: 0 4px 8px 0 #2b1808;
+	border: solid 3px #8B6536;
+}
+
 footer {
 	background: #666666;
 	animation: ftbg 10s linear 2s infinite;
@@ -132,12 +152,16 @@ footer {
 	body {font-size:14px;}
 	#nav {font-size:20px;margin: 3px;}
 	#banner_container {margin: 3px;}
+	#batchphoto {width:85%;height:auto;}
+	#disperse {width:60%}
 }
 
 @media all and (max-width: 480px) {
 	body {font-size:13px;}
 	#nav {font-size:18px;margin: 1px;}
 	#banner_container {margin: 1px;}
+	#batchphoto {width:90%;height:auto;}
+	#disperse {width:80%}
 }
 
 @keyframes ftbg {
