@@ -2,7 +2,7 @@ body {
 	text-align:center;
 	background-image: url(images/bg1.png);
 	background-attachment: fixed;
-	font-family: Century gothic;
+	font-family: mainfont;
 	word-wrap: break-word;
 }
 
@@ -168,4 +168,9 @@ footer {
     0%   {background: #666666;}
     50%  {background: #999999;}
 	100%   {background: #666666;}
+}
+
+@font-face {
+    font-family: "mainfont";
+    src: url(GOTHIC.ttf) format("truetype");
 }
